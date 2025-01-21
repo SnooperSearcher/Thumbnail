@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thumbnail Editor</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      background: linear-gradient(135deg, #00172D, #00172D);
-      color: #fff;
-    }
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    @media only screen and (max-width:800px) {
+        <title>Blank template</title>
+
+        
+        <style>
+@media only screen and (max-width:800px) {
   /* For tablets: */
   .main {
     width: 80%;
@@ -33,7 +23,17 @@
   }
 }
 
-    
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      background: linear-gradient(135deg, #00172D, #00172D);
+      color: #fff;
+    }
+
     #controls {
       display: flex;
       flex-wrap: wrap;
@@ -78,12 +78,15 @@
       width: 100%;
       height: 100%;
     }
-  </style>
-</head>
-<body>
+</style>
+    </head>
 
-  <div id="controls">
-    <h2 style="font-size: 106px; color: white; margin: 0;">Thumbnail Maker</h2>
+    <body>
+
+        <h1>Thumbnail</h1>
+        
+      <div id="controls">
+    <h2 style="font-size: 50px; color: white; margin: 0;">Thumbnail Maker</h2>
     <div id="controls">
     <label>
       Upload Background Image:
@@ -601,6 +604,8 @@ document.getElementById("downloadButton").addEventListener("click", () => {
         alert("Please select an element to remove shadow.");
       }
     });
-  </script>
-</body>
+  </script> 
+        
+    </body>
+
 </html>
